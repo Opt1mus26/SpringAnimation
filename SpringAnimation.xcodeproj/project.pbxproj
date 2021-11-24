@@ -84,17 +84,65 @@
 		EF922EDC274E9B8E005B1595 /* SpringAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				EF922EDD274E9B8E005B1595 /* AppDelegate.swift */,
-				EF922EDF274E9B8E005B1595 /* SceneDelegate.swift */,
-				EF922EE1274E9B8E005B1595 /* AnimationViewController.swift */,
-				EF922EE3274E9B8E005B1595 /* Main.storyboard */,
-				EF922EE6274E9B8F005B1595 /* Assets.xcassets */,
-				EF922EE8274E9B8F005B1595 /* LaunchScreen.storyboard */,
-				EF922EF3274E9EEA005B1595 /* Animation.swift */,
-				EF922EF5274E9EF8005B1595 /* DataManager.swift */,
-				EF922EEB274E9B8F005B1595 /* Info.plist */,
+				EF922EF7274EB10B005B1595 /* App */,
+				EF922EF8274EB119005B1595 /* ViewControllers */,
+				EF922EF9274EB129005B1595 /* StoryBoards */,
+				EF922EFA274EB150005B1595 /* Resourses */,
+				EF922EFB274EB15B005B1595 /* Models */,
+				EF922EFC274EB166005B1595 /* Servises */,
 			);
 			path = SpringAnimation;
+			sourceTree = "<group>";
+		};
+		EF922EF7274EB10B005B1595 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF922EDD274E9B8E005B1595 /* AppDelegate.swift */,
+				EF922EDF274E9B8E005B1595 /* SceneDelegate.swift */,
+				EF922EEB274E9B8F005B1595 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EF922EF8274EB119005B1595 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF922EE1274E9B8E005B1595 /* AnimationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EF922EF9274EB129005B1595 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				EF922EE3274E9B8E005B1595 /* Main.storyboard */,
+				EF922EE8274E9B8F005B1595 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		EF922EFA274EB150005B1595 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				EF922EE6274E9B8F005B1595 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		EF922EFB274EB15B005B1595 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF922EF3274E9EEA005B1595 /* Animation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF922EFC274EB166005B1595 /* Servises */ = {
+			isa = PBXGroup;
+			children = (
+				EF922EF5274E9EF8005B1595 /* DataManager.swift */,
+			);
+			path = Servises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -15,10 +15,10 @@ struct Animation {
     var descriptionAnimation: String {
         """
             Preset: \(preset)
-            curve: \(curve)
-            force: \(force)
-            duration: \(duration)
-            delay: \(delay)
+            Curve: \(curve)
+            Force: \(String(format: "%.2f", force))
+            Duration: \(String(format: "%.2f", duration))
+            Delay: \(String(format: "%.2f", delay))
         """
     }
     
